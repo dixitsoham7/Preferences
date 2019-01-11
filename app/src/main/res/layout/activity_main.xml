@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Preferences Assignment! Edit in seetings and see the changed data with show data button. Here, shared preferences is used!"
+        android:textAlignment="center"
+        android:layout_marginBottom="40dp"
+        android:textColor="#c2c2c2"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="storeDataEntered"
+        android:background="@drawable/input_outline"
+        android:text="settings"
+        android:textSize="18dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:padding="20dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+
+        android:padding="20dp"
+        android:textSize="18dp"
+        android:onClick="showDataCreated"
+        android:background="@drawable/input_outline"
+        android:text="show data" />
+
+
+</LinearLayout>
